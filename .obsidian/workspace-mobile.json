@@ -112,6 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Untitled.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -168,6 +169,9 @@
   },
   "active": "d57fabac11f8962f",
   "lastOpenFiles": [
+    "Ink/Writing/2026.6.30 - 23.50pm.writing",
+    "Ink/Writing",
+    "Ink",
     "Untitled.md",
     "Untitled.base",
     "Home.md",
