@@ -4,12 +4,12 @@
   "switcher": true,
   "graph": true,
   "backlink": true,
-  "canvas": true,
+  "canvas": false,
   "outgoing-link": true,
   "tag-pane": true,
   "footnotes": false,
   "properties": true,
-  "page-preview": true,
+  "page-preview": false,
   "daily-notes": true,
   "templates": true,
   "note-composer": true,
@@ -28,6 +28,6 @@
   "file-recovery": true,
   "publish": false,
   "sync": true,
-  "bases": true,
+  "bases": false,
   "webviewer": false
 }
