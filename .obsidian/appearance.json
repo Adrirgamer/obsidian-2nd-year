@@ -1,0 +1,15 @@
+{
+  "accentColor": "#b65f25",
+  "cssTheme": "",
+  "theme": "obsidian",
+  "showViewHeader": false,
+  "showRibbon": true,
+  "enabledCssSnippets": [
+    "dashboard",
+    "claude",
+    "terminal-dashboard",
+    "theme"
+  ],
+  "baseFontSizeAction": false,
+  "nativeMenus": false
+}

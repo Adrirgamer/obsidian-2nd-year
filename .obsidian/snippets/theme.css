@@ -1,0 +1,178 @@
+/* ==========================================================
+   THEME: Claude Code CLI (Smooth)
+   DESCRIPTION: A terminal-inspired UI with smooth, modern UI elements
+   ========================================================== */
+
+body {
+    /* Typography: Monospace everywhere */
+    --font-default: 'JetBrains Mono', 'Fira Code', 'Menlo', 'Consolas', monospace;
+    --font-interface: var(--font-default);
+    --font-text: var(--font-default);
+    --font-monospace: var(--font-default);
+    --font-h1-h6: var(--font-default);
+
+    /* Backgrounds: Deep Terminal Black & Greys */
+    --bg1: #0a0a0a; 
+    --bg2: #141414; 
+    --bg3: #1e1e1e;
+    
+    --background-primary: var(--bg1);
+    --background-primary-alt: var(--bg2);
+    --background-secondary: var(--bg2);
+    --background-secondary-alt: var(--bg3);
+    --background-modifier-border: #333333;
+    --background-modifier-border-hover: #555555;
+    --background-modifier-border-focus: var(--interactive-accent);
+    
+    /* Text Colors */
+    --text-normal: #d4d4d4;
+    --text-muted: #808080;
+    --text-faint: #4d4d4d;
+    --text-error: #ff5b5b;
+    --text-success: #66c296;
+
+    /* Claude Amber / Peach Accents */
+    --claude-peach: #d97757;
+    --claude-peach-hover: #e88b5c;
+    --claude-peach-faded: rgba(217, 119, 87, 0.15);
+    
+    --interactive-accent: var(--claude-peach);
+    --interactive-accent-hover: var(--claude-peach-hover);
+    --text-accent: var(--claude-peach);
+    --text-accent-hover: var(--claude-peach-hover);
+    --background-modifier-active-hover: var(--claude-peach-faded);
+    
+    /* Syntax & Headings (Terminal Palette) */
+    --h1-color: var(--claude-peach);
+    --h2-color: #c9af6d; 
+    --h3-color: #66c296; 
+    --h4-color: #62b1df; 
+    --h5-color: #c678dd; 
+    --h6-color: var(--text-muted);
+
+    /* Smooth UI Elements (Restored border radii) */
+    --tab-radius: 8px 8px 0 0;
+    --input-radius: 6px;
+    --checkbox-radius: 4px;
+    --toggle-radius: 12px; /* Keeps toggles pill-shaped */
+    --slider-radius: 4px;
+    --button-radius: 6px;
+    --modal-radius: 10px;
+    
+    --shadow-s: none;
+    --shadow-l: none;
+    --shadow-modal: 0 8px 24px rgba(217, 119, 87, 0.15);
+}
+
+/* Force dark mode behavior */
+body.theme-light, body.theme-dark {
+    color-scheme: dark;
+}
+
+/* ==========================================================
+   UI COMPONENTS
+   ========================================================== */
+
+/* Tabs styling */
+.workspace-tab-header-container {
+    background-color: var(--bg1);
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+.workspace-tab-header {
+    background-color: transparent;
+    color: var(--text-muted);
+}
+.workspace-tab-header.is-active {
+    background-color: var(--bg2);
+    color: var(--claude-peach) !important;
+    border-top: 2px solid var(--claude-peach) !important;
+}
+
+/* Sidebar pane styling */
+.workspace-split.mod-left-split, 
+.workspace-split.mod-right-split {
+    border-right: 1px solid var(--background-modifier-border);
+    background-color: var(--bg2);
+}
+
+/* Command Palette (CLI Prompt Style but smoothed) */
+.prompt, .modal {
+    background-color: var(--bg1);
+    border: 1px solid var(--claude-peach);
+    box-shadow: var(--shadow-modal);
+}
+.prompt-input {
+    background-color: var(--bg1) !important;
+    border-bottom: 1px dashed var(--claude-peach) !important;
+    color: var(--claude-peach) !important;
+    font-size: 1.1em;
+}
+.prompt-input::placeholder {
+    color: var(--text-muted);
+}
+
+/* Selected text terminal style */
+::selection {
+    background-color: var(--claude-peach);
+    color: var(--bg1);
+}
+
+/* ==========================================================
+   MARKDOWN & EDITOR
+   ========================================================== */
+
+/* Terminal Text Glow on Primary Headings */
+.markdown-rendered h1, 
+.markdown-rendered h2 {
+    text-shadow: 0 0 8px var(--claude-peach-faded);
+}
+
+/* Add a CLI prompt prefix to H1 */
+.markdown-rendered h1::before,
+.cm-header-1::before {
+    content: ">_ ";
+    color: var(--text-muted);
+}
+
+/* Blockquotes as terminal outputs */
+.markdown-rendered blockquote {
+    background-color: var(--bg2);
+    border-left: 3px solid var(--claude-peach);
+    border-radius: 0 6px 6px 0;
+    color: var(--text-normal);
+}
+
+/* Inline Code */
+.markdown-rendered code {
+    background-color: var(--bg2);
+    color: var(--claude-peach-hover);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+}
+
+/* Code Blocks */
+.markdown-rendered pre {
+    background-color: var(--bg1) !important;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+}
+.markdown-rendered pre:hover {
+    border-color: var(--claude-peach-hover);
+}
+
+/* Smoother Retro Scrollbars */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background: var(--bg1);
+    border-left: 1px solid var(--background-modifier-border);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--background-modifier-border);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--claude-peach);
+}

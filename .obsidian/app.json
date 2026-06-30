@@ -1,0 +1,11 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "showLineNumber": true,
+  "livePreview": true,
+  "showInlineTitle": true,
+  "defaultViewMode": "source",
+  "readableLineLength": false,
+  "propertiesInDocument": "source"
+}
