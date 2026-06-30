@@ -1,5 +1,14 @@
-[[Math TD]]
-[[Math DS]]
-[[Math Cours]]
-[[Math Python]]
+# DS
 
+[[Math DS]]
+# DM
+
+[[Math DM]]
+
+# Cours
+
+[[Math Cours]]
+
+# TD
+
+[[Math TD]]

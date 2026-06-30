@@ -7,5 +7,6 @@
   "showInlineTitle": true,
   "defaultViewMode": "source",
   "readableLineLength": false,
-  "propertiesInDocument": "source"
+  "propertiesInDocument": "source",
+  "spellcheck": false
 }

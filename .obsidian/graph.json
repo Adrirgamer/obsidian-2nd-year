@@ -1,14 +1,14 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:/^Subjects\\/Chemistry/",
+      "query": "path:Subjects/Chemistry  ",
       "color": {
         "a": 1,
         "rgb": 14701138
@@ -32,7 +32,7 @@
       "query": "path:Subjects/ITC  ",
       "color": {
         "a": 1,
-        "rgb": 5431378
+        "rgb": 14570208
       }
     },
     {
@@ -57,16 +57,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0.2,
-  "nodeSizeMultiplier": 0.65173090649536,
-  "lineSizeMultiplier": 0.539810849393291,
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 0.52109375,
+  "lineSizeMultiplier": 0.699739583333333,
   "collapse-forces": false,
-  "centerStrength": 0.645788722341185,
-  "repelStrength": 12.4589578872234,
-  "linkStrength": 0.908458244111349,
+  "centerStrength": 0.6484375,
+  "repelStrength": 12.34375,
+  "linkStrength": 0.903645833333333,
   "linkDistance": 30,
-  "scale": 0.2859912244833613,
-  "close": false
+  "scale": 0.5621317802880174,
+  "close": true
 }

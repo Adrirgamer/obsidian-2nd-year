@@ -1,6 +1,16 @@
-- [[Actions mécaniques et statiques]]
-- [[Systèmes asservis]]
-- [[Chaines fonctionnelles]]
-- [[Cinématique]]
-- [[Outils Mathématiques]]
-- [[Bases et Repères]]
+# DS
+
+[[SII DS]]
+# DM
+
+[[SII DM]]
+
+# Cours
+
+[[SII Cours]]
+# TP
+
+[[SII TP]]
+# TD
+
+[[SII TD]]

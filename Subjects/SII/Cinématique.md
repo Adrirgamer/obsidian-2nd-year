@@ -1,2 +1,0 @@
-[[Vecteurs]]
-[[Torseurs]]
