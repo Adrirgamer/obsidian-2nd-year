@@ -11,10 +11,14 @@
             "id": "e94b08f31d278889",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Tasks.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Tasks"
             }
           }
         ]
@@ -161,6 +165,8 @@
       "bases:Create new base": false
     }
   },
-  "active": "8e01fb35e20d5a58",
-  "lastOpenFiles": []
+  "active": "e94b08f31d278889",
+  "lastOpenFiles": [
+    "Home.md"
+  ]
 }
