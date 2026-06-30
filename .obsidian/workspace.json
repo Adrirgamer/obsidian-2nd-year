@@ -11,10 +11,14 @@
             "id": "b4a3b08fbb25aca2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Tasks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tasks"
             }
           }
         ]
@@ -70,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,22 +89,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "58a2a4e8ff9200d1",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
             "id": "27800db9087a80c0",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Marks.md",
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Marks"
+              "title": "Backlinks for Tasks"
             }
           },
           {
@@ -171,8 +164,19 @@
               "icon": "lucide-list",
               "title": "Outline of Marks"
             }
+          },
+          {
+            "id": "033a6bdf2dcc9adb",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -192,8 +196,10 @@
   },
   "active": "b4a3b08fbb25aca2",
   "lastOpenFiles": [
-    "Home.md",
     "Subjects.md",
+    "Tasks.md",
+    "Home.md",
+    "Marks.md",
     "Subjects/English/English.md",
     "Subjects/French/French.md",
     "Subjects/SII/SII.md",
@@ -222,8 +228,6 @@
     "Subjects/Physics/TD",
     "Subjects/SII/TP",
     "Subjects/Physics/Physics TP.md",
-    "Subjects/SII/SII Cours.md",
-    "Subjects/SII/SII TD.md",
     "Subjects/SII/TD",
     "Subjects/SII/New folder",
     "Subjects/SII/Cours",
