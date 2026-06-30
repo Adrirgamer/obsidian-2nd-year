@@ -144,6 +144,7 @@
         "state": {
           "type": "outline",
           "state": {
+            "file": "Subjects.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -153,7 +154,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 2
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,7 +168,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "f336e771ecbed958",
+  "active": "ddec4fb103205be7",
   "lastOpenFiles": [
     "Tasks.md",
     "Marks.md",
