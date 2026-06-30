@@ -5,8 +5,6 @@
   "showViewHeader": false,
   "showRibbon": true,
   "enabledCssSnippets": [
-    "dashboard",
-    "claude",
     "terminal-dashboard",
     "theme"
   ],
