@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "fa8bd2eb539a7722",
+    "id": "16df8a4e7e3b69a5",
     "type": "split",
     "children": [
       {
-        "id": "34b47d0cb641768f",
+        "id": "3e4efd6d1178b82b",
         "type": "tabs",
         "children": [
           {
-            "id": "c6918f2d29444802",
+            "id": "e94b08f31d278889",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,11 +23,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2b748ad85a293cd0",
+    "id": "aebd57877045db9c",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "2b87d14f467f4a77",
+        "id": "8e01fb35e20d5a58",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -40,7 +40,7 @@
         }
       },
       {
-        "id": "c3e1c4d8f9368cff",
+        "id": "f9fd421b09f2caa4",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -57,7 +57,7 @@
         }
       },
       {
-        "id": "981818c8c947eac7",
+        "id": "f3339601938a02a5",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -72,7 +72,7 @@
         }
       },
       {
-        "id": "003225736d5528e3",
+        "id": "4c609a2bd0973c13",
         "type": "leaf",
         "state": {
           "type": "all-properties",
@@ -86,7 +86,7 @@
         }
       },
       {
-        "id": "2be3087ed4fb9888",
+        "id": "a35a8517709ce781",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -99,16 +99,15 @@
     "currentTab": 0
   },
   "right": {
-    "id": "a641a0b1d80e35cb",
+    "id": "a13ae31857af84bf",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "1d5c11bd9dbf0022",
+        "id": "32afaffd71477981",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Maths/Algèbre.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -122,12 +121,11 @@
         }
       },
       {
-        "id": "ca4c3d67b5535ec0",
+        "id": "f5ee8b1ac5bca444",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Maths/Algèbre.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -136,12 +134,11 @@
         }
       },
       {
-        "id": "3ff042f7f4a9844b",
+        "id": "ddec4fb103205be7",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "Maths/Algèbre.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -164,17 +161,6 @@
       "bases:Create new base": false
     }
   },
-  "active": "c6918f2d29444802",
-  "lastOpenFiles": [
-    "Maths/Suites 2.md",
-    "11052026 ch 29 Probabilités maths_260511_143104.pdf",
-    "Computer Science/2025-12-03.md",
-    "Maths/Algèbre.md",
-    "Maths/Suites 1.md",
-    "1_260428_211017.pdf",
-    "T e st_260428_210437 (2).pdf",
-    "Stuff to do.md",
-    "Subjects.md",
-    "Suites 1.md"
-  ]
+  "active": "8e01fb35e20d5a58",
+  "lastOpenFiles": []
 }
